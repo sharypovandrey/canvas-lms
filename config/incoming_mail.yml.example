@@ -34,7 +34,7 @@ test:
 production:
   run_periodically: true
   pop3:
-    server: "pop.example.com"
+    server: "pop.canvas.steminds.com"
     port: 995
     ssl: true
     username: "user"
@@ -48,16 +48,16 @@ production:
 multiple_inboxes:
   run_periodically: true
   imap:
-    server: "imap.example.com"
+    server: "imap.canvas.steminds.com"
     port: 993
     ssl: true
     filter: ALL
     accounts:
-    - username: "user1@example.com"
+    - username: "user1@canvas.steminds.com"
       password: "pass1"
 
-    - username: "user2@example.com"
+    - username: "user2@canvas.steminds.com"
       password: "pass2"
 
-    - username: "user3@example.com"
+    - username: "user3@canvas.steminds.com"
       password: "pass3"
